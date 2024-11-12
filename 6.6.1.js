@@ -1,4 +1,4 @@
-let word = prompt("Введите слово");
+const word = prompt("Введите слово");
 
 const arrayWord = Array.from(word.toUpperCase().replaceAll(' ', ''));
 const arrayReversedWord = Array.from(word.toUpperCase().replaceAll(' ', '')).reverse();
@@ -14,7 +14,6 @@ for (let i = 0; i < arrayWord.length; i++) {
 
 if (isPalindrome) {
     console.log(`Слово "${word}" является палиндромом`);
-}
-else {
+} else {
     console.log(`Слово "${word}" не является палиндромом`);
 }

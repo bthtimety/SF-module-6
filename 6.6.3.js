@@ -1,4 +1,4 @@
-let userNumber = +prompt("Введите число");
+const userNumber = +prompt("Введите число");
 const arrayNumber = [];
 
 for (let i = 0; i <= userNumber; i++) {

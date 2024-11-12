@@ -1,7 +1,6 @@
-let promo = prompt("Введите промокод:");
+const promo = prompt("Введите промокод:");
 if (promo.toUpperCase() === "СКИДКА") {
     alert("Промокод применен");
-}
-else {
+} else {
     alert("Промокод не работает");
 }

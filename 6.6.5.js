@@ -7,20 +7,15 @@ const obj = {
 
 const arrValues = [];
 
-for(let key in obj) {
-
+for (let key in obj) {
     let value = obj[key];
-
-    if(!Array.isArray(value)) {
+    if (!Array.isArray(value)) {
         arrValues.push(value);
-    }
-
-    else {
-        for(let i of value){
+    } else {
+        for (let i of value) {
             arrValues.push(i);
         }
     }
-
 }
 
 console.log(arrValues);
